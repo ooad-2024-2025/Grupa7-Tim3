@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\Migrations\\20250515143824_prvaMigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250515143824_prvaMigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\tipsmjestaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\tipsmjestaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\smjestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\smjestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\recenzija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\recenzija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +67,152 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250515143824_prvaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\Migrations\\20250515143824_prvaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250515143824_prvaMigracija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\Migrations\\20250515143824_prvaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250515143824_prvaMigracija.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:24.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Uloga.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
+              "RelativeDocumentMoniker": "Models\\Uloga.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
+              "RelativeToolTip": "Models\\Uloga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:06:48.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:51:43.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipSmjestaja.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
+              "RelativeDocumentMoniker": "Models\\TipSmjestaja.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
+              "RelativeToolTip": "Models\\TipSmjestaja.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:07:25.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Smjestaj.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
+              "RelativeDocumentMoniker": "Models\\Smjestaj.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
+              "RelativeToolTip": "Models\\Smjestaj.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:04:17.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
+              "RelativeDocumentMoniker": "Models\\Rezervacija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
+              "RelativeToolTip": "Models\\Rezervacija.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:05:23.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Recenzija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
+              "RelativeDocumentMoniker": "Models\\Recenzija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
+              "RelativeToolTip": "Models\\Recenzija.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:05:39.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lokacija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
+              "RelativeDocumentMoniker": "Models\\Lokacija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
+              "RelativeToolTip": "Models\\Lokacija.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:07:47.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:03:44.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:02:22.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T10:48:20.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:31:25.406Z"
             }
           ]
         }

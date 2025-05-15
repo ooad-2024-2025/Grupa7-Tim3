@@ -1,0 +1,36 @@
+﻿namespace Booking.Models
+{
+    public enum Lokacija
+    {
+        Sarajevo,
+        BanjaLuka,
+        Tuzla,
+        Zenica,
+        Mostar,
+        Bihać,
+        Brčko,
+        Prijedor,
+        Bijeljina,
+        Trebinje,
+        Doboj,
+        Travnik,
+        Cazin,
+        Goražde,
+        Gračanica,
+        Gradačac,
+        ŠirokiBrijeg,
+        Zavidovići,
+        Lukavac,
+        Konjic,
+        SanskiMost,
+        Kakanj,
+        Bugojno,
+        Derventa,
+        Zvornik,
+        Tešanj,
+        Livno,
+        Čapljina,
+        Foča,
+        Modriča
+    }
+}
