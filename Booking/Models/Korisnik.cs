@@ -3,12 +3,12 @@
     public class Korisnik
     {
         public int id { get; set; }
-        public int ime { get; set; }
-        public int prezime { get; set; }
-        public int email { get; set; }
-        public int lozinka { get; set; }
-        public int adresa { get; set; }
-        public int brojTelefona { get; set; }
+        public string ime { get; set; }
+        public string prezime { get; set; }
+        public string email { get; set; }
+        public string lozinka { get; set; }
+        public string adresa { get; set; }
+        public string brojTelefona { get; set; }
         public Uloga uloga { get; set; }
        
     }

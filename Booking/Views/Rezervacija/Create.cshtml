@@ -1,0 +1,68 @@
+﻿@model Booking.Models.Rezervacija
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Rezervacija</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="idSmjestaja" class="control-label"></label>
+                <input asp-for="idSmjestaja" class="form-control" />
+                <span asp-validation-for="idSmjestaja" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idGosta" class="control-label"></label>
+                <input asp-for="idGosta" class="form-control" />
+                <span asp-validation-for="idGosta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="datumRezervacije" class="control-label"></label>
+                <input asp-for="datumRezervacije" class="form-control" />
+                <span asp-validation-for="datumRezervacije" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pocetakBoravka" class="control-label"></label>
+                <input asp-for="pocetakBoravka" class="form-control" />
+                <span asp-validation-for="pocetakBoravka" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="krajBoravka" class="control-label"></label>
+                <input asp-for="krajBoravka" class="form-control" />
+                <span asp-validation-for="krajBoravka" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cijena" class="control-label"></label>
+                <input asp-for="cijena" class="form-control" />
+                <span asp-validation-for="cijena" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="rezervacijaOtkazana" /> @Html.DisplayNameFor(model => model.rezervacijaOtkazana)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="datumOtkazivanja" class="control-label"></label>
+                <input asp-for="datumOtkazivanja" class="form-control" />
+                <span asp-validation-for="datumOtkazivanja" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

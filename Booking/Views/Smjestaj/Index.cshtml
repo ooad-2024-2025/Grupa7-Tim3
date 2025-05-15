@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Booking.Models.Smjestaj>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idVlasnika)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lokacija)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipSmjestaja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cijenaZaJednuNoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.opis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.brojSoba)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wifi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.parking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bazen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kuhinja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.klima)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.balkon)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idVlasnika)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lokacija)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipSmjestaja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cijenaZaJednuNoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.opis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brojSoba)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.wifi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.parking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bazen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kuhinja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.klima)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.balkon)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

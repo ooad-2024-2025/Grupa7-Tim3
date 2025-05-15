@@ -6,8 +6,7 @@
         public int idSmjestaja { get; set; }
         public int idGosta { get; set; }
         public float ocjena { get; set; }
-
-        public string recenzija { get; set; }
+        public string komentar { get; set; }
 
     }
 }

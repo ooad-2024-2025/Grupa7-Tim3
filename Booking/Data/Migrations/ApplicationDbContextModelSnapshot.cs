@@ -30,23 +30,29 @@ namespace Booking.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<int>("adresa")
-                        .HasColumnType("int");
+                    b.Property<string>("adresa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("brojTelefona")
-                        .HasColumnType("int");
+                    b.Property<string>("brojTelefona")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("email")
-                        .HasColumnType("int");
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ime")
-                        .HasColumnType("int");
+                    b.Property<string>("ime")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("lozinka")
-                        .HasColumnType("int");
+                    b.Property<string>("lozinka")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("prezime")
-                        .HasColumnType("int");
+                    b.Property<string>("prezime")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("uloga")
                         .HasColumnType("int");
@@ -70,12 +76,12 @@ namespace Booking.Data.Migrations
                     b.Property<int>("idSmjestaja")
                         .HasColumnType("int");
 
-                    b.Property<float>("ocjena")
-                        .HasColumnType("real");
-
-                    b.Property<string>("recenzija")
+                    b.Property<string>("komentar")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("ocjena")
+                        .HasColumnType("real");
 
                     b.HasKey("id");
 
@@ -127,11 +133,26 @@ namespace Booking.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
+                    b.Property<bool>("balkon")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("bazen")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("brojSoba")
+                        .HasColumnType("int");
+
                     b.Property<float>("cijenaZaJednuNoc")
                         .HasColumnType("real");
 
                     b.Property<int>("idVlasnika")
                         .HasColumnType("int");
+
+                    b.Property<bool>("klima")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("kuhinja")
+                        .HasColumnType("bit");
 
                     b.Property<int>("lokacija")
                         .HasColumnType("int");
@@ -144,8 +165,17 @@ namespace Booking.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("parking")
+                        .HasColumnType("bit");
+
                     b.Property<int>("tipSmjestaja")
                         .HasColumnType("int");
+
+                    b.Property<bool>("tv")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("wifi")
+                        .HasColumnType("bit");
 
                     b.HasKey("id");
 

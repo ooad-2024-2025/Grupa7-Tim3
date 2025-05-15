@@ -1,0 +1,66 @@
+﻿@model Booking.Models.Rezervacija
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Rezervacija</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idSmjestaja)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idSmjestaja)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idGosta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idGosta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.datumRezervacije)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.datumRezervacije)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.pocetakBoravka)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.pocetakBoravka)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.krajBoravka)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.krajBoravka)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cijena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cijena)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.rezervacijaOtkazana)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.rezervacijaOtkazana)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.datumOtkazivanja)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.datumOtkazivanja)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
