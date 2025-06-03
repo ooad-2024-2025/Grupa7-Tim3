@@ -17,109 +17,125 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Booking
 build_property.RootNamespace = Booking
-build_property.ProjectDir = C:\Users\Dzelo\Desktop\Semestar IV\OOAD\Grupa7-Tim3\Booking\
+build_property.ProjectDir = C:\Users\Korisnik\OneDrive\Radna površina\OOADprojekat\Grupa7-Tim3\Booking\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dzelo\Desktop\Semestar IV\OOAD\Grupa7-Tim3\Booking
+build_property.MSBuildProjectDirectory = C:\Users\Korisnik\OneDrive\Radna površina\OOADprojekat\Grupa7-Tim3\Booking
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Home/Index.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Home/Privacy.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Recenzija/Create.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Recenzija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Recenzija/Delete.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Recenzija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Recenzija/Details.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Recenzija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Recenzija/Edit.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Recenzija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Recenzija/Index.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Recenzija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/Create.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Rezervacija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/Delete.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Rezervacija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/Details.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Rezervacija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/Edit.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Rezervacija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/Index.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Rezervacija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Shared/Error.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Create.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Smjestaj/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Delete.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Smjestaj/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Details.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Smjestaj/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Edit.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Smjestaj/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Index.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Smjestaj/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/_ViewImports.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/_ViewStart.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Shared/_Layout.cshtml]
+[C:/Users/Korisnik/OneDrive/Radna površina/OOADprojekat/Grupa7-Tim3/Booking/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-unpkwsaam7
