@@ -82,11 +82,7 @@ namespace Booking.Areas.Identity.Pages.Account
             [Display(Name = "Prezime")]
             public string Prezime { get; set; }
 
-            [Required]
-            [Display(Name = "Lozinka")]
-            [DataType(DataType.Password)]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
-            public String Lozinka { get; set; }
+          
 
             [Required]
             [Display(Name = "Adresa")]
@@ -109,9 +105,9 @@ namespace Booking.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
 
-            /*  [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
               [DataType(DataType.Password)]
-              [Display(Name = "Password")]
+              [Display(Name = "Lozinka")]
               public string Password { get; set; }
 
               /// <summary>
@@ -119,12 +115,12 @@ namespace Booking.Areas.Identity.Pages.Account
               ///     directly from your code. This API may change or be removed in future releases.
               /// </summary>
               [DataType(DataType.Password)]
-              [Display(Name = "Confirm password")]
+              [Display(Name = "Potvrdi lozinku")]
               [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
               public string ConfirmPassword { get; set; }
-          }*/
+          }
 
-        }
+        
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
@@ -141,14 +137,14 @@ namespace Booking.Areas.Identity.Pages.Account
 
                 user.ime = Input.Ime;
                 user.prezime = Input.Prezime;
-                user.lozinka = Input.Lozinka;
+                
                 user.adresa = Input.Adresa;
                 user.brojTelefona = Input.BrojTelefona;
 
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                var result = await _userManager.CreateAsync(user, Input.Lozinka);
+                var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
