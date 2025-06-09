@@ -46,12 +46,24 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.opis)
         </dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ocjena)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ocjena)
+		</dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.brojSoba)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.brojSoba)
         </dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.imageUrl)
+		</dt>
+		<dd class="col-sm-10">
+			<img src="@Model.imageUrl" alt="Slika smještaja" style="max-width: 200px; max-height: 200px;" />
+		</dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.wifi)
         </dt>

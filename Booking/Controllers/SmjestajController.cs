@@ -68,7 +68,7 @@ namespace Booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,brojSoba,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
+        public async Task<IActionResult> Create([Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
         {
             if (ModelState.IsValid)
             {
@@ -115,7 +115,7 @@ namespace Booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,brojSoba,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
+        public async Task<IActionResult> Edit(int id, [Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
         {
             if (id != smjestaj.id)
             {

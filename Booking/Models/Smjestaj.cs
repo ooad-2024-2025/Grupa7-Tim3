@@ -9,7 +9,9 @@
         public TipSmjestaja tipSmjestaja { get; set; }
         public float cijenaZaJednuNoc { get; set; }
         public string opis { get; set; }
+        public float ocjena { get; set; }
         public int brojSoba { get; set; }
+        public string imageUrl { get; set; } // URL slike
         public bool wifi { get; set; }
         public bool parking { get; set; }
         public bool bazen { get; set; }

@@ -1,8 +1,170 @@
-﻿@{
+﻿@using System.Reflection
+@using System.ComponentModel.DataAnnotations
+
+@{
     ViewData["Title"] = "Home Page";
+    var searchQuery = Context.Request.Query["searchQuery"].ToString();
+    var smjestaji = ViewData["Smjestaji"] as List<Booking.Models.Smjestaj>;
+    var tipovi = ViewData["Tipovi"] as List<Booking.Models.TipSmjestaja>;
+    var lokacije = ViewData["Lokacije"] as List<Booking.Models.Lokacija>;
+    var selectedTip = ViewData["TipSmjestaja"] as Booking.Models.TipSmjestaja?;
+    var selectedLokacija = ViewData["Lokacija"] as Booking.Models.Lokacija?;
+    var minCijena = ViewData["MinCijena"]?.ToString();
+    var maxCijena = ViewData["MaxCijena"]?.ToString();
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center" style="background-color: #f7e2fa; width: 100%">
+    <div class="search-bar mt-4">
+        <form method="get">
+            <div class="input-group mb-3" style="max-width: 80vw; margin: 0 auto;">
+                <input type="text" class="form-control" placeholder="Search..." name="searchQuery" aria-label="Search" value="@searchQuery" />
+            </div>
+            <div class="row mb-3" style="max-width: 600px; margin: 0 auto;">
+                <div class="col">
+                    <select class="form-select" name="tipSmjestaja">
+                        <option value="">Tip smještaja</option>
+                        @if (tipovi != null)
+                        {
+                            foreach (var t in tipovi)
+                            {
+                             var isSelected = selectedTip.HasValue && selectedTip.Value == t ? "selected" : "";
+
+                            // Dohvati display name direktno
+                            var displayAttr = t.GetType().GetMember(t.ToString())[0].GetCustomAttribute<DisplayAttribute>();
+                            var displayName = displayAttr != null ? displayAttr.Name : t.ToString();
+
+                            @:<option value="@( (int)t )" @isSelected>@displayName</option>   
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="col">
+                  <select class="form-select" name="lokacija">
+                        <option value="">Lokacija</option>
+                        @if (lokacije != null)
+                        {
+                            foreach (var l in lokacije)
+                            {
+                                var isSelected = selectedLokacija.HasValue && selectedLokacija.Value == l ? "selected" : "";
+
+                                var displayAttr = l.GetType().GetMember(l.ToString())[0].GetCustomAttribute<DisplayAttribute>();
+                                var displayName = displayAttr != null ? displayAttr.Name : l.ToString();
+
+                                @:<option value="@((int)l)" @isSelected>@displayName</option>
+                            }
+                        }
+                  </select>
+                </div>
+                <div class="col">
+                    <input type="number" class="form-control" name="minCijena" placeholder="Min cijena" value="@minCijena" min="0" />
+                </div>
+                <div class="col">
+                    <input type="number" class="form-control" name="maxCijena" placeholder="Max cijena" value="@maxCijena" min="0" />
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        @if (!string.IsNullOrWhiteSpace(searchQuery))
+        {
+            <div style="color: #e75480; font-weight: bold; margin-top: 10px;">
+                @searchQuery
+            </div>
+        }
+    </div>
+
+    @if (smjestaji != null && smjestaji.Any())
+    {
+        <div class="mt-4">
+            <h4>Rezultati pretrage:</h4>
+            <table class="table table-bordered" style="max-width: 600px; margin: 0 auto;">
+                <thead>
+                    <tr>
+                        <th>Naziv</th>
+                        <th>Cijena za jednu noć</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in smjestaji)
+                    {
+                        <tr>
+                            <td>@s.naziv</td>
+                            <td>@s.cijenaZaJednuNoc.ToString("0.00")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+     <!-- prikaz smjestaja u card-ovima -->
+    @if (smjestaji != null && smjestaji.Any())
+    {
+    <div class="d-flex flex-column align-items-center">
+        @foreach (var s in smjestaji)
+        {
+            <a href="@Url.Action("Details", "Smjestaj", new { id = s.id })" style="text-decoration: none; color: inherit;">
+            <div class="card mb-4 shadow-lg p-1" style="width: 60vw; height: 15vh; min-height: 180px;">
+                <div class="row g-0 h-100">
+                    <div class="col-4 h-100">
+                       <img src="@(string.IsNullOrWhiteSpace(s.imageUrl) ? "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png" : s.imageUrl)"
+                             class="img-fluid rounded-start h-100 w-100 object-fit-cover"
+                             alt="Slika smještaja" style="object-fit: cover;" />
+                    </div>
+                    <div class="col-8 h-100">
+                        <div class="card-body d-flex flex-column justify-content-between h-100 p-2 text-start">
+                            <div>
+                                <h5 class="card-title mb-1">@s.naziv</h5>
+                                @functions {
+                                    // Returns an image URL based on the rating (ocjena)
+                                    public string GetImageUrlByOcjena(float ocjena)
+                                    {
+                                        if (ocjena < 0.5)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/4/4a/Star_rating_0_of_5.png?";
+                                        if (ocjena < 1.0)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/8/82/Star_rating_0.5_of_5.png";
+                                        return "https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png"; // Poor
+                                    }
+                                }
+
+                                <!-- ... -->
+
+                                <div class="row mb-2">
+                                    <div class="col-2 d-flex align-items-center">
+                                        <div style="font-size: 1em; color: #6c757d;">
+                                            @{
+                                                // Lokacija je enum, prikazi display name ako postoji
+                                                var lokacijaEnum = s.lokacija;
+                                                string lokacijaDisplay = lokacijaEnum.GetType()
+                                                    .GetMember(lokacijaEnum.ToString())[0]
+                                                    .GetCustomAttribute<DisplayAttribute>()?.Name ?? lokacijaEnum.ToString() ?? "Nema lokacije";
+                                            }
+                                            @lokacijaDisplay
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-center justify-content-start">
+                                        <img src="@GetImageUrlByOcjena(s.ocjena)" alt="Ocjena slika" style="height: 25px;" />
+                                    </div>
+                                </div>
+                                <p class="card-text mb-2" style="overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; max-height: 3em;">
+                                    @s.opis
+                                </p>
+                            </div>
+                            <div>
+                                <span class="fw-bold" style="font-size:1.1em;">@s.cijenaZaJednuNoc.ToString("0.00") KM / noć</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
+        }
+    </div>
+    }
+    else if (!string.IsNullOrWhiteSpace(searchQuery) || selectedTip.HasValue || selectedLokacija.HasValue || !string.IsNullOrWhiteSpace(minCijena) || !string.IsNullOrWhiteSpace(maxCijena))
+    {
+        <div class="mt-4">
+            <span style="color: #e75480;">Nema rezultata za pretragu.</span>
+        </div>
+    }
+
+
 </div>
