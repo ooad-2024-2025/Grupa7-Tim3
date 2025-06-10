@@ -7,15 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Booking.Data;
 using Booking.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace Booking.Controllers
 {
-    [Authorize]
     public class RecenzijaController : Controller
     {
         private readonly ApplicationDbContext _context;
-        
 
         public RecenzijaController(ApplicationDbContext context)
         {

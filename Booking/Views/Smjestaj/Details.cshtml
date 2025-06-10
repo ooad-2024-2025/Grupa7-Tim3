@@ -1,113 +1,302 @@
 ﻿@model Booking.Models.Smjestaj
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<Booking.Models.Korisnik> UserManager
 
 @{
     ViewData["Title"] = "Details";
+    var recenzije = ViewData["Recenzije"] as List<Booking.Models.Recenzija>;
+    var korisnici = ViewData["RelevantniKorisnici"] as List<Booking.Models.Korisnik>;
 }
 
-<h1>Details</h1>
-
+<!--
 <div>
-    <h4>Smjestaj</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.idVlasnika)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.idVlasnika)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.naziv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.naziv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.lokacija)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.lokacija)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.tipSmjestaja)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.tipSmjestaja)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cijenaZaJednuNoc)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cijenaZaJednuNoc)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.opis)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.opis)
-        </dd>
-		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.ocjena)
-		</dt>
-		<dd class="col-sm-10">
-			@Html.DisplayFor(model => model.ocjena)
-		</dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.brojSoba)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.brojSoba)
-        </dd>
-		<dt class="col-sm-2">
-			@Html.DisplayNameFor(model => model.imageUrl)
-		</dt>
-		<dd class="col-sm-10">
-			<img src="@Model.imageUrl" alt="Slika smještaja" style="max-width: 200px; max-height: 200px;" />
-		</dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.wifi)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.wifi)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.parking)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.parking)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.bazen)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.bazen)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.kuhinja)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.kuhinja)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.klima)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.klima)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.tv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.tv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.balkon)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.balkon)
-        </dd>
-    </dl>
+<h4>Smjestaj</h4>
+<hr />
+<dl class="row">
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.idVlasnika)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.idVlasnika)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.naziv)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.naziv)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.lokacija)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.lokacija)
+</dd>
+<dt class="col-sm-2">
+@Html.DisplayNameFor(model => model.adresa)
+</dt>
+<dd class="col-sm-10">
+@Html.DisplayFor(model => model.adresa)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.tipSmjestaja)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.tipSmjestaja)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.cijenaZaJednuNoc)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.cijenaZaJednuNoc)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.opis)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.opis)
+</dd>
+<dt class="col-sm-2">
+@Html.DisplayNameFor(model => model.ocjena)
+</dt>
+<dd class="col-sm-10">
+@Html.DisplayFor(model => model.ocjena)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.brojSoba)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.brojSoba)
+</dd>
+<dt class="col-sm-2">
+@Html.DisplayNameFor(model => model.imageUrl)
+</dt>
+<dd class="col-sm-10">
+<img src="@Model.imageUrl" alt="Slika smještaja" style="max-width: 200px; max-height: 200px;" />
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.wifi)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.wifi)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.parking)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.parking)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.bazen)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.bazen)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.kuhinja)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.kuhinja)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.klima)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.klima)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.tv)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.tv)
+</dd>
+<dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.balkon)
+</dt>
+<dd class = "col-sm-10">
+@Html.DisplayFor(model => model.balkon)
+</dd>
+</dl>
 </div>
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<div class="container my-5 p-4 bg-light rounded shadow-sm">
+
+    @{
+        var currentUserId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        var isAdmin = User.IsInRole("Admin");
+        bool canEdit = (currentUserId == Model.idVlasnika.ToString()) || isAdmin;
+    }
+
+    <!-- Naslov i adresa -->
+    <div class="d-flex align-items-center justify-content-between">
+        <h2 class="fw-bold">@Model.naziv</h2>
+        @if (canEdit)
+        {
+            <a asp-action="Edit" asp-route-id="@Model.id" class="btn btn-primary btn-sm">
+                Uredi
+            </a>
+        }
+        else
+        {
+            <p class="text-start mb-0">Nisi ovlašten za izmjenu</p>
+        }
+    </div>
+    <p class="text-muted">@Model.adresa, @Model.lokacija</p>
+
+    <!-- Slike + dugmad u istom redu -->
+    <div class="row mb-4">
+        <div class="col-md-9 d-flex" style="gap: 16px;">
+            <!-- Glavna slika -->
+            <div style="width: 65%;">
+                <img src="@Model.imageUrl" alt="Glavna slika" class="img-fluid rounded w-100" style="height: 100%; object-fit: cover;" />
+            </div>
+
+            <!-- Dvije vertikalno složene manje slike -->
+            <div style="width: 35%; display: flex; flex-direction: column; justify-content: space-between;">
+                <img src="@Model.imageUrl2" alt="Slika 2" class="img-fluid rounded mb-2" style="height: 49%; object-fit: cover;" />
+                <img src="@Model.imageUrl3" alt="Slika 3" class="img-fluid rounded mt-2" style="height: 49%; object-fit: cover;" />
+            </div>
+        </div>
+
+        <!-- Dugmad -->
+        <div class="col-md-3 d-flex flex-column justify-content-start gap-2">
+            <a class="btn btn-primary w-100" asp-action="Rezervisi" asp-route-id="@Model.id">Rezerviši</a>
+            <a class="btn btn-outline-secondary w-100" asp-action="Ocijeni" asp-route-id="@Model.id">Ocijeni smještaj</a>
+        </div>
+    </div>
+
+    <!-- Ikonice pogodnosti -->
+    <div class="row text-center mb-4">
+        <div class="col">
+            <div class="border rounded p-2">
+                <i class="bi bi-house-door fs-3"></i><br />
+                @Model.tipSmjestaja
+            </div>
+        </div>
+        @if (Model.parking)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-p-circle fs-3"></i><br />
+                    Parking
+                </div>
+            </div>
+        }
+        @if (Model.bazen)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-droplet fs-3"></i><br />
+                    Bazen
+                </div>
+            </div>
+        }
+        @if (Model.kuhinja)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-cup-hot fs-3"></i><br />
+                    Kuhinja
+                </div>
+            </div>
+        }
+        @if (Model.wifi)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-wifi fs-3"></i><br />
+                    Wi-Fi
+                </div>
+            </div>
+        }
+        @if (Model.klima)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-snow fs-3"></i><br />
+                    Klima
+                </div>
+            </div>
+        }
+        @if (Model.tv)
+        {
+            <div class="col">
+                <div class="border rounded p-2">
+                    <i class="bi bi-tv fs-3"></i><br />
+                    TV
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Opis i osnovni podaci -->
+    <div class="mb-4">
+        <p class="lead">@Model.opis</p>
+        <p><strong>Ocjena:</strong> @Model.ocjena ★</p>
+        <p><strong>Broj soba:</strong> @Model.brojSoba</p>
+        <p><strong>Cijena za jednu noć:</strong> @Model.cijenaZaJednuNoc KM</p>
+    </div>
+
+    @if (recenzije != null && recenzije.Any())
+    {
+        <h3 class="mt-5">Recenzije</h3>
+        <div class="container">
+            <div class="row">
+                @for (int i = 0; i < recenzije.Count; i++)
+                {
+                    var rec = recenzije[i];
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="bi bi-person-circle fs-2 me-2"></i>
+
+                                    @{
+                                        var korisnik = korisnici.FirstOrDefault(k => k.Id == rec.idGosta);
+                                    }
+                                    @if (korisnik != null)
+                                    {
+                                        <strong>@korisnik.ime @korisnik.prezime</strong>
+                                    }
+                                    else
+                                    {
+                                        <strong>Nepoznat korisnik</strong>
+                                    }
+
+                                </div>
+                                <p class="card-text">@rec.komentar</p>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Ocjena: <strong>@rec.ocjena</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    // Zatvori i otvori novi red svakih 3 recenzije
+                    if ((i + 1) % 3 == 0 && i + 1 < recenzije.Count)
+                    {
+                        <div class="row"> </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="text-muted mt-5">Nema recenzija za ovaj smještaj.</p>
+    }
+
+
+
+</div>
+
+
+
+
+
+
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
     <a asp-action="Index">Back to List</a>

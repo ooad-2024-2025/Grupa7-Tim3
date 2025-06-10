@@ -1,10 +1,11 @@
 ﻿namespace Booking.Models
 {
+
     public class Rezervacija
     {
         public int id { get; set; }
         public int idSmjestaja { get; set; }
-        public int idGosta { get; set; }
+        public string idGosta { get; set; }
         public DateTime datumRezervacije { get; set; }
         public DateTime pocetakBoravka { get; set; }
         public DateTime krajBoravka { get; set; }

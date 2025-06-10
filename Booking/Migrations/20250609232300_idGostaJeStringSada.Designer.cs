@@ -4,6 +4,7 @@ using Booking.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Booking.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250609232300_idGostaJeStringSada")]
+    partial class idGostaJeStringSada
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -149,9 +152,8 @@ namespace Booking.Migrations
                     b.Property<DateTime>("datumRezervacije")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("idGosta")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("idGosta")
+                        .HasColumnType("int");
 
                     b.Property<int>("idSmjestaja")
                         .HasColumnType("int");
@@ -194,9 +196,8 @@ namespace Booking.Migrations
                     b.Property<float>("cijenaZaJednuNoc")
                         .HasColumnType("real");
 
-                    b.Property<string>("idVlasnika")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("idVlasnika")
+                        .HasColumnType("int");
 
                     b.Property<string>("imageUrl")
                         .IsRequired()

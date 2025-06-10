@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Booking.Data;
 using Booking.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Booking.Controllers
 {
@@ -39,6 +41,19 @@ namespace Booking.Controllers
             {
                 return NotFound();
             }
+            var recenzije = await _context.Recenzija
+            .Where(r => r.idSmjestaja == smjestaj.id)
+            .ToListAsync();
+
+            var idGosti = recenzije.Select(r => r.idGosta).Distinct().ToList();
+
+            var relevantniKorisnici = await _context.Users
+                .Where(u => idGosti.Contains(u.Id))
+                .ToListAsync();
+
+
+            ViewData["Recenzije"] = recenzije;
+            ViewData["RelevantniKorisnici"] = relevantniKorisnici;
 
             return View(smjestaj);
         }
@@ -68,14 +83,16 @@ namespace Booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
+        public async Task<IActionResult> Create([Bind("id,idVlasnika,naziv,lokacija,adresa,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,imageUrl2,imageUrl3,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
         {
             if (ModelState.IsValid)
             {
+
                 _context.Add(smjestaj);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(smjestaj);
         }
 
@@ -115,7 +132,7 @@ namespace Booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,idVlasnika,naziv,lokacija,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
+        public async Task<IActionResult> Edit(int id, [Bind("id,idVlasnika,naziv,lokacija,adresa,tipSmjestaja,cijenaZaJednuNoc,opis,ocjena,brojSoba,imageUrl,imageUrl2,imageUrl3,wifi,parking,bazen,kuhinja,klima,tv,balkon")] Smjestaj smjestaj)
         {
             if (id != smjestaj.id)
             {
