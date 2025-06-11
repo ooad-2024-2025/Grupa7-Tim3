@@ -27,19 +27,19 @@
                         {
                             foreach (var t in tipovi)
                             {
-                             var isSelected = selectedTip.HasValue && selectedTip.Value == t ? "selected" : "";
+                                var isSelected = selectedTip.HasValue && selectedTip.Value == t ? "selected" : "";
 
-                            // Dohvati display name direktno
-                            var displayAttr = t.GetType().GetMember(t.ToString())[0].GetCustomAttribute<DisplayAttribute>();
-                            var displayName = displayAttr != null ? displayAttr.Name : t.ToString();
+                                // Dohvati display name direktno
+                                var displayAttr = t.GetType().GetMember(t.ToString())[0].GetCustomAttribute<DisplayAttribute>();
+                                var displayName = displayAttr != null ? displayAttr.Name : t.ToString();
 
-                            @:<option value="@( (int)t )" @isSelected>@displayName</option>   
+                                @:<option value="@( (int)t )" @isSelected>@displayName</option>   
                             }
                         }
                     </select>
                 </div>
                 <div class="col">
-                  <select class="form-select" name="lokacija">
+                    <select class="form-select" name="lokacija">
                         <option value="">Lokacija</option>
                         @if (lokacije != null)
                         {
@@ -53,7 +53,7 @@
                                 @:<option value="@((int)l)" @isSelected>@displayName</option>
                             }
                         }
-                  </select>
+                    </select>
                 </div>
                 <div class="col">
                     <input type="number" class="form-control" name="minCijena" placeholder="Min cijena" value="@minCijena" min="0" />
@@ -95,25 +95,25 @@
             </table>
         </div>
     }
-     <!-- prikaz smjestaja u card-ovima -->
+    <!-- prikaz smjestaja u card-ovima -->
     @if (smjestaji != null && smjestaji.Any())
     {
-    <div class="d-flex flex-column align-items-center">
-        @foreach (var s in smjestaji)
-        {
-            <a href="@Url.Action("Details", "Smjestaj", new { id = s.id })" style="text-decoration: none; color: inherit;">
-            <div class="card mb-4 shadow-lg p-1" style="width: 60vw; height: 15vh; min-height: 180px;">
-                <div class="row g-0 h-100">
-                    <div class="col-4 h-100">
-                       <img src="@(string.IsNullOrWhiteSpace(s.imageUrl) ? "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png" : s.imageUrl)"
-                             class="img-fluid rounded-start h-100 w-100 object-fit-cover"
-                             alt="Slika smještaja" style="object-fit: cover;" />
-                    </div>
-                    <div class="col-8 h-100">
-                        <div class="card-body d-flex flex-column justify-content-between h-100 p-2 text-start">
-                            <div>
-                                <h5 class="card-title mb-1">@s.naziv</h5>
-                                @functions {
+        <div class="d-flex flex-column align-items-center">
+            @foreach (var s in smjestaji)
+            {
+                <a href="@Url.Action("Details", "Smjestaj", new { id = s.id })" style="text-decoration: none; color: inherit;">
+                    <div class="card mb-4 shadow-lg p-1" style="width: 60vw; height: 15vh; min-height: 180px;">
+                        <div class="row g-0 h-100">
+                            <div class="col-4 h-100">
+                                <img src="@(string.IsNullOrWhiteSpace(s.imageUrl) ? "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Image_not_available.png/800px-Image_not_available.png" : s.imageUrl)"
+                                class="img-fluid rounded-start h-100 w-100 object-fit-cover"
+                                alt="Slika smještaja" style="object-fit: cover;" />
+                            </div>
+                            <div class="col-8 h-100">
+                                <div class="card-body d-flex flex-column justify-content-between h-100 p-2 text-start">
+                                    <div>
+                                        <h5 class="card-title mb-1">@s.naziv</h5>
+                                        @functions {
                                     // Returns an image URL based on the rating (ocjena)
                                     public string GetImageUrlByOcjena(float ocjena)
                                     {
@@ -121,7 +121,27 @@
                                             return "https://upload.wikimedia.org/wikipedia/commons/4/4a/Star_rating_0_of_5.png?";
                                         if (ocjena < 1.0)
                                             return "https://upload.wikimedia.org/wikipedia/commons/8/82/Star_rating_0.5_of_5.png";
-                                        return "https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png"; // Poor
+                                        if(ocjena < 1.5)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/d/dd/Star_rating_1_of_5.png";
+                                        if (ocjena < 2.0)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/a/a7/Star_rating_1.5_of_5.png";
+                                        if (ocjena < 2.5)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/9/95/Star_rating_2_of_5.png";
+                                        if (ocjena < 3.0)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/b/bf/Star_rating_2.5_of_5.png";
+                                        if (ocjena < 3.5)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/2/2f/Star_rating_3_of_5.png";
+                                        if (ocjena < 4.0)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/e/eb/Star_rating_3.5_of_5.png";
+                                        if (ocjena < 4.5)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/f/fa/Star_rating_4_of_5.png";
+                                        if (ocjena < 5.0)
+                                            return "https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png";
+                                        return "https://upload.wikimedia.org/wikipedia/commons/1/17/Star_rating_5_of_5.png";
+
+
+
+
                                     }
                                 }
 

@@ -7,16 +7,21 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Booking.Data;
 using Booking.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Booking.Controllers
 {
+    [Authorize]
     public class RecenzijaController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public RecenzijaController(ApplicationDbContext context)
+        public RecenzijaController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Recenzija
@@ -44,9 +49,23 @@ namespace Booking.Controllers
         }
 
         // GET: Recenzija/Create
-        public IActionResult Create()
+        public IActionResult Create(int? idSmjestaja)
         {
-            return View();
+            var model = new Recenzija();
+            if (idSmjestaja.HasValue)
+            {
+                model.idSmjestaja = idSmjestaja.Value;
+                // Fetch nazivSmjestaja from database
+                var smjestaj = _context.Smjestaj.FirstOrDefault(s => s.id == idSmjestaja.Value);
+                ViewData["NazivSmjestaja"] = smjestaj?.naziv ?? "";
+            }
+            else
+            {
+                model.idSmjestaja = 0; // Default value if not provided
+                ViewData["NazivSmjestaja"] = "";
+            }
+            model.idGosta = _userManager.GetUserId(User);
+            return View(model);
         }
 
         // POST: Recenzija/Create
@@ -60,7 +79,28 @@ namespace Booking.Controllers
             {
                 _context.Add(recenzija);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                // racunamo novu prosjecnu ocjenu
+                var smjestajId = recenzija.idSmjestaja;
+                var recenzijeZaSmjestaj = await _context.Recenzija
+                    .Where(r => r.idSmjestaja == smjestajId)
+                    .ToListAsync();
+
+                float prosjecnaOcjena = 0;
+                if (recenzijeZaSmjestaj.Count > 0)
+                {
+                    prosjecnaOcjena = recenzijeZaSmjestaj.Average(r => r.ocjena);
+                }
+
+                var smjestaj = await _context.Smjestaj.FirstOrDefaultAsync(s => s.id == smjestajId);
+                if (smjestaj != null)
+                {
+                    smjestaj.ocjena = prosjecnaOcjena;
+                    _context.Smjestaj.Update(smjestaj);
+                    await _context.SaveChangesAsync();
+                }
+
+                return RedirectToAction("Index", "Home");
             }
             return View(recenzija);
         }
@@ -146,7 +186,27 @@ namespace Booking.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            // racunamo novu prosjecnu ocjenu
+            var smjestajId = recenzija.idSmjestaja;
+            var recenzijeZaSmjestaj = await _context.Recenzija
+                .Where(r => r.idSmjestaja == smjestajId)
+                .ToListAsync();
+
+            float prosjecnaOcjena = 0;
+            if (recenzijeZaSmjestaj.Count > 0)
+            {
+                prosjecnaOcjena = recenzijeZaSmjestaj.Average(r => r.ocjena);
+            }
+
+            var smjestaj = await _context.Smjestaj.FirstOrDefaultAsync(s => s.id == smjestajId);
+            if (smjestaj != null)
+            {
+                smjestaj.ocjena = prosjecnaOcjena;
+                _context.Smjestaj.Update(smjestaj);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         private bool RecenzijaExists(int id)

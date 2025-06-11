@@ -118,7 +118,6 @@
 </dl>
 </div>
 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 <div class="container my-5 p-4 bg-light rounded shadow-sm">
 
@@ -162,7 +161,7 @@
         <!-- Dugmad -->
         <div class="col-md-3 d-flex flex-column justify-content-start gap-2">
             <a class="btn btn-primary w-100" asp-action="Rezervisi" asp-route-id="@Model.id">Rezerviši</a>
-            <a class="btn btn-outline-secondary w-100" asp-action="Ocijeni" asp-route-id="@Model.id">Ocijeni smještaj</a>
+            <a class="btn btn-outline-secondary w-100" asp-controller="Recenzija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Ocijeni smještaj</a>
         </div>
     </div>
 

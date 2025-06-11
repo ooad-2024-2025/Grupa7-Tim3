@@ -1,46 +1,60 @@
 ﻿@model Booking.Models.Recenzija
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Nova recenzija";
+    var nazivSmjestaja = ViewData["NazivSmjestaja"] as string ?? "";
 }
 
-<h1>Create</h1>
+@if (string.IsNullOrWhiteSpace(nazivSmjestaja))
+{
+    <h2 class="mt-4 mb-3">Dodaj recenziju</h2>
+}
+else
+{
+    <h2 class="mt-4 mb-3">Dodaj recenziju za: <span class="text-primary">@nazivSmjestaja</span></h2>
+}
 
-<h4>Recenzija</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="idSmjestaja" class="control-label"></label>
-                <input asp-for="idSmjestaja" class="form-control" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="idSmjestaja" class="form-label"></label>
+                <input asp-for="idSmjestaja" class="form-control" readonly />
                 <span asp-validation-for="idSmjestaja" class="text-danger"></span>
+                @if (Model != null && Model.idSmjestaja == 0)
+                {
+                    <div class="alert alert-danger mt-2">
+                        Greška: metoda nije ispravno pozvana!
+                    </div>
+                }
             </div>
-            <div class="form-group">
-                <label asp-for="idGosta" class="control-label"></label>
-                <input asp-for="idGosta" class="form-control" />
+
+            <div class="form-group mb-3">
+                <label asp-for="idGosta" class="form-label"></label>
+                <input asp-for="idGosta" class="form-control" readonly />
                 <span asp-validation-for="idGosta" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ocjena" class="control-label"></label>
-                <input asp-for="ocjena" class="form-control" />
+
+            <div class="form-group mb-3">
+                <label asp-for="ocjena" class="form-label"></label>
+                <input asp-for="ocjena" class="form-control" type="number" min="0" max="5" step="0.5 placeholder="Unesite ocjenu (0-5)" title="Ocjena mora biti između 0 i 5." />
                 <span asp-validation-for="ocjena" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="komentar" class="control-label"></label>
-                <input asp-for="komentar" class="form-control" />
+
+            <div class="form-group mb-3">
+                <label asp-for="komentar" class="form-label"></label>
+                <textarea asp-for="komentar" class="form-control" rows="4" maxlength="300" placeholder="Unesite komentar (maks. 300 karaktera)" title="Maksimalno 300 karaktera."></textarea>
                 <span asp-validation-for="komentar" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="hidden" name="returnUrl" value="@Context.Request.Headers["Referer"]" />
+                <input type="submit" value="Sačuvaj recenziju" class="btn btn-success"/>
+                <a href="@Context.Request.Headers["Referer"]" class="btn btn-secondary ms-2">Nazad</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
