@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\smjestajcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:controllers\\smjestajcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Smjestaj\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Smjestaj\\Edit.cshtml",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Views\\Smjestaj\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T20:14:30.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T20:14:30.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -79,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -87,20 +86,20 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T18:14:00.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T18:14:00.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
               "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:10:37.97Z"
+              "WhenOpened": "2025-06-12T18:10:37.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SmjestajController.cs",
               "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\SmjestajController.cs",
               "RelativeDocumentMoniker": "Controllers\\SmjestajController.cs",

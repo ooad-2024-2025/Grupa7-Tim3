@@ -9,7 +9,7 @@
     {
         public async Task SendEmailAsync()
         {
-            var apiKey = ""; // zamijeni ako koristiš appsettings
+            var apiKey = "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"; // zamijeni ako koristiš appsettings
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("bookingooad@gmail.com", "Booking.com");
             var subject = "Booking Rezervacija";
