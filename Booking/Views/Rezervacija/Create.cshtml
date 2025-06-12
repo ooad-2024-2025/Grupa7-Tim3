@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Create";
+    float cijenaZaJednuNoc = (float)ViewData["cijenaZaJednuNoc"];
 }
 
 <h1>Create</h1>
@@ -9,60 +10,109 @@
 <h4>Rezervacija</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6 col-lg-5">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="idSmjestaja" class="control-label"></label>
-                <input asp-for="idSmjestaja" class="form-control" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="idSmjestaja" class="control-label">Id Smjestajaaa</label>
+                <input asp-for="idSmjestaja" class="form-control" readonly />
                 <span asp-validation-for="idSmjestaja" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="idGosta" class="control-label"></label>
-                <input asp-for="idGosta" class="form-control" />
+                <input asp-for="idGosta" class="form-control" readonly />
                 <span asp-validation-for="idGosta" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="datumRezervacije" class="control-label"></label>
-                <input asp-for="datumRezervacije" class="form-control" />
+                <input asp-for="datumRezervacije" class="form-control" readonly />
                 <span asp-validation-for="datumRezervacije" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="pocetakBoravka" class="control-label"></label>
-                <input asp-for="pocetakBoravka" class="form-control" />
+                <input asp-for="pocetakBoravka" class="form-control" id="pocetakBoravka" />
                 <span asp-validation-for="pocetakBoravka" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="krajBoravka" class="control-label"></label>
-                <input asp-for="krajBoravka" class="form-control" />
+                <input asp-for="krajBoravka" class="form-control" id="krajBoravka" />
                 <span asp-validation-for="krajBoravka" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3">
                 <label asp-for="cijena" class="control-label"></label>
-                <input asp-for="cijena" class="form-control" />
+                <input asp-for="cijena" class="form-control" readonly id="cijena" />
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+
+            <div class="form-group form-check mb-3" style="display:none;">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="rezervacijaOtkazana" /> @Html.DisplayNameFor(model => model.rezervacijaOtkazana)
+                    <input class="form-check-input" asp-for="rezervacijaOtkazana" />
+                    @Html.DisplayNameFor(model => model.rezervacijaOtkazana)
                 </label>
             </div>
-            <div class="form-group">
+
+            <div class="form-group mb-3" style="display:none;">
                 <label asp-for="datumOtkazivanja" class="control-label"></label>
                 <input asp-for="datumOtkazivanja" class="form-control" />
                 <span asp-validation-for="datumOtkazivanja" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="form-group d-flex gap-2">
+                <button type="submit" class="btn btn-success">Rezerviši</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Nazad</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="mt-3">
+    <a asp-action="Index">← Back to List</a>
+</div>
+
+<div id="dateWarning" class="alert alert-warning mt-3" style="display:none; position:fixed; left:0; right:0; bottom:0; z-index:9999; text-align:center;">
+    Početak boravka ne smije biti isti ili poslije kraja boravka!
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function calculateCijena() {
+            const pocetak = document.getElementById('pocetakBoravka').value;
+            const kraj = document.getElementById('krajBoravka').value;
+            const cijenaInput = document.getElementById('cijena');
+            const warning = document.getElementById('dateWarning');
+            //fetcam cijenu sa vrha koju sam proslijedio iz kontrolera
+            const cijenaZaJednuNoc = @cijenaZaJednuNoc;
+
+            if (pocetak && kraj) {
+                const start = new Date(pocetak);
+                const end = new Date(kraj);
+                const diffTime = end - start;
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+                if (diffDays <= 0) {
+                    cijenaInput.value = 0;
+                    warning.style.display = 'block';
+                } else {
+                    cijenaInput.value = diffDays * cijenaZaJednuNoc;
+                    warning.style.display = 'none';
+                }
+            } else {
+                cijenaInput.value = 0;
+                warning.style.display = 'none';
+            }
+        }
+
+        document.getElementById('pocetakBoravka').addEventListener('change', calculateCijena);
+        document.getElementById('krajBoravka').addEventListener('change', calculateCijena);
+        window.addEventListener('DOMContentLoaded', calculateCijena);
+    </script>
 }

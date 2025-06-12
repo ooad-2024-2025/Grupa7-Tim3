@@ -1,4 +1,4 @@
-// Licensed to the .NET Foundation under one or more agreements.
+﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
@@ -72,13 +72,13 @@ namespace Booking.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required(ErrorMessage = "Ime je obavezno.")]
-            [RegularExpression(@"^[A-Za-z\s\-]{2,30}$", ErrorMessage = "Ime smije sadr�avati samo slova i razmake.")]
+            [RegularExpression(@"^[A-ZščćžđČŠĆŽĐa-z\s\-]{2,30}$", ErrorMessage = "Ime smije sadržavati samo slova i razmake.")]
             [Display(Name = "Ime")]
             public string Ime { get; set; }
 
 
             [Required(ErrorMessage = "Prezime je obavezno.")]
-            [RegularExpression(@"^[A-Za-z\s\-]{2,30}$", ErrorMessage = "Prezime smije sadr�avati samo slova i razmake.")]
+            [RegularExpression(@"^[A-ZčšćžđČŠĆŽĐa-z\s\-]{2,30}$", ErrorMessage = "Prezime smije sadržavati samo slova i razmake.")]
             [Display(Name = "Prezime")]
             public string Prezime { get; set; }
 
@@ -104,16 +104,17 @@ namespace Booking.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-
-             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [Required(ErrorMessage = "Lozinka je obavezna.")]
+            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
               [DataType(DataType.Password)]
               [Display(Name = "Lozinka")]
               public string Password { get; set; }
 
-              /// <summary>
-              ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-              ///     directly from your code. This API may change or be removed in future releases.
-              /// </summary>
+            /// <summary>
+            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+            ///     directly from your code. This API may change or be removed in future releases.
+            /// </summary>
+            [Required]
               [DataType(DataType.Password)]
               [Display(Name = "Potvrdi lozinku")]
               [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]

@@ -25,12 +25,14 @@ namespace Booking.Controllers
         }
 
         // GET: Recenzija
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Recenzija.ToListAsync());
         }
 
         // GET: Recenzija/Details/5
+        [Authorize(Roles = "Admin, Gost")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -49,6 +51,7 @@ namespace Booking.Controllers
         }
 
         // GET: Recenzija/Create
+        [Authorize(Roles = "Admin, Gost")]
         public IActionResult Create(int? idSmjestaja)
         {
             var model = new Recenzija();
@@ -106,6 +109,7 @@ namespace Booking.Controllers
         }
 
         // GET: Recenzija/Edit/5
+        [Authorize(Roles = "Admin, Gost")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -157,6 +161,7 @@ namespace Booking.Controllers
         }
 
         // GET: Recenzija/Delete/5
+        [Authorize(Roles = "Admin, Gost")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

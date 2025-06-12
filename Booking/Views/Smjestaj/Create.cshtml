@@ -4,119 +4,147 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Dodaj smještaj</h1>
 
-<h4>Smjestaj</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <!--<input type="hidden" asp-for="idVlasnika" />-->
-            <div class="form-group">
-                <label asp-for="idVlasnika" class="control-label"></label>
-                <input asp-for="idVlasnika" class="form-control" />
-                <span asp-validation-for="idVlasnika" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="naziv" class="control-label"></label>
-                <input asp-for="naziv" class="form-control" />
-                <span asp-validation-for="naziv" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="lokacija" class="control-label"></label>
-                <select asp-for="lokacija" class="form-control" asp-items="@(new SelectList(ViewBag.LokacijaList, "Value", "Text"))"></select>
-                <span asp-validation-for="lokacija" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="adresa" class="control-label"></label>
-                <input asp-for="adresa" class="form-control" />
-                <span asp-validation-for="adresa" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="tipSmjestaja" class="control-label"></label>
-                <select asp-for="tipSmjestaja" class="form-control" asp-items="@(new SelectList(ViewBag.TipSmjestajaList, "Value", "Text"))"></select>
-                <span asp-validation-for="tipSmjestaja" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cijenaZaJednuNoc" class="control-label"></label>
-                <input asp-for="cijenaZaJednuNoc" class="form-control" />
-                <span asp-validation-for="cijenaZaJednuNoc" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="opis" class="control-label"></label>
-                <input asp-for="opis" class="form-control" />
-                <span asp-validation-for="opis" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ocjena" class="control-label"></label>
-                <input asp-for="ocjena" class="form-control" />
-                <span asp-validation-for="ocjena" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="brojSoba" class="control-label"></label>
-                <input asp-for="brojSoba" class="form-control" />
-                <span asp-validation-for="brojSoba" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="imageUrl" class="control-label"></label>
-                <input asp-for="imageUrl" class="form-control" />
-                <span asp-validation-for="imageUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="imageUrl2" class="control-label"></label>
-                <input asp-for="imageUrl2" class="form-control" />
-                <span asp-validation-for="imageUrl2" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="imageUrl3" class="control-label"></label>
-                <input asp-for="imageUrl3" class="form-control" />
-                <span asp-validation-for="imageUrl3" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="wifi" /> @Html.DisplayNameFor(model => model.wifi)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="parking" /> @Html.DisplayNameFor(model => model.parking)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="bazen" /> @Html.DisplayNameFor(model => model.bazen)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="kuhinja" /> @Html.DisplayNameFor(model => model.kuhinja)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="klima" /> @Html.DisplayNameFor(model => model.klima)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="tv" /> @Html.DisplayNameFor(model => model.tv)
-                </label>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="balkon" /> @Html.DisplayNameFor(model => model.balkon)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <!-- ID Vlasnika - sam u redu -->
+                <div class="form-group">
+                    <label asp-for="idVlasnika" class="control-label"></label>
+                    <input asp-for="idVlasnika" class="form-control" readonly />
+                    <span asp-validation-for="idVlasnika" class="text-danger"></span>
+                </div>
+
+                <!-- Polja po dvije u redu -->
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="naziv" class="control-label">Naziv</label>
+                        <input asp-for="naziv" class="form-control" />
+                        <span asp-validation-for="naziv" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="lokacija" class="control-label">Lokacija Smještaja</label>
+                        <select asp-for="lokacija" class="form-control" asp-items="@(new SelectList(ViewBag.LokacijaList, "Value", "Text"))"></select>
+                        <span asp-validation-for="lokacija" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="adresa" class="control-label">Adresa Smještaja</label>
+                        <input asp-for="adresa" class="form-control" />
+                        <span asp-validation-for="adresa" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="tipSmjestaja" class="control-label">Tip Smještaja</label>
+                        <select asp-for="tipSmjestaja" class="form-control" asp-items="@(new SelectList(ViewBag.TipSmjestajaList, "Value", "Text"))"></select>
+                        <span asp-validation-for="tipSmjestaja" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="cijenaZaJednuNoc" class="control-label">Cijena Za Jednu Noć</label>
+                        <input asp-for="cijenaZaJednuNoc" class="form-control" />
+                        <span asp-validation-for="cijenaZaJednuNoc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="ocjena" class="control-label">Ocjena(5.0 bez recenzija)</label>
+                        <input asp-for="ocjena" class="form-control" value=5 readonly/>
+                        <span asp-validation-for="ocjena" class="text-danger"></span>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    
+                    <div class="form-group col-md-6">
+                        <label asp-for="brojSoba" class="control-label">Broj Soba</label>
+                        <input asp-for="brojSoba" class="form-control" />
+                        <span asp-validation-for="brojSoba" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="imageUrl" class="control-label">Glavna slika</label>
+                        <input asp-for="imageUrl" class="form-control" />
+                        <span asp-validation-for="imageUrl" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label asp-for="imageUrl2" class="control-label">Sporedna slika 1</label>
+                        <input asp-for="imageUrl2" class="form-control" />
+                        <span asp-validation-for="imageUrl2" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="imageUrl3" class="control-label">Sporedna slika 2</label>
+                        <input asp-for="imageUrl3" class="form-control" />
+                        <span asp-validation-for="imageUrl3" class="text-danger"></span>
+                    </div>
+                </div>
+
+               
+                <div class="form-group">
+                    <label asp-for="opis" class="control-label">Opis</label>
+                    <textarea asp-for="opis" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="opis" class="text-danger"></span>
+                </div>
+
+                <!-- Checkboxes - 2 po redu -->
+                <div class="row" style="margin-left: 3px;">
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="wifi" />
+                        <label class="form-check-label" asp-for="wifi"></label>
+                    </div>
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="parking" />
+                        <label class="form-check-label" asp-for="parking"></label>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left: 3px;">
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="bazen" />
+                        <label class="form-check-label" asp-for="bazen"></label>
+                    </div>
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="kuhinja" />
+                        <label class="form-check-label" asp-for="kuhinja"></label>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-left: 3px;">
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="klima" />
+                        <label class="form-check-label" asp-for="klima"></label>
+                    </div>
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="tv" />
+                        <label class="form-check-label" asp-for="tv"></label>
+                    </div>
+                </div>
+                <div class="row" style="margin-left: 3px;">
+                    <div class="form-group form-check col-md-6">
+                        <input class="form-check-input" asp-for="balkon" />
+                        <label class="form-check-label" asp-for="balkon"></label>
+                    </div>
+                </div>
+
+
+                <div class="form-group mt-4">
+                    <input type="submit" value="Sačuvaj smještaj" class="btn btn-primary w-100" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+    <div class="mt-3 text-center">
+        <a asp-action="Index" class="btn btn-secondary">Nazad na listu</a>
+    </div>
 </div>
 
 @section Scripts {

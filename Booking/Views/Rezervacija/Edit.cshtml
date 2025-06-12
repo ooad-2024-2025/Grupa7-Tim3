@@ -1,64 +1,80 @@
 ﻿@model Booking.Models.Rezervacija
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Otkazivanje rezervacije";
 }
 
-<h1>Edit</h1>
+<h1>Otkazivanje rezervacije</h1>
 
-<h4>Rezervacija</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="id" />
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="idSmjestaja" class="control-label"></label>
                 <input asp-for="idSmjestaja" class="form-control" />
                 <span asp-validation-for="idSmjestaja" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="idGosta" class="control-label"></label>
                 <input asp-for="idGosta" class="form-control" />
                 <span asp-validation-for="idGosta" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="datumRezervacije" class="control-label"></label>
                 <input asp-for="datumRezervacije" class="form-control" />
                 <span asp-validation-for="datumRezervacije" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="pocetakBoravka" class="control-label"></label>
                 <input asp-for="pocetakBoravka" class="form-control" />
                 <span asp-validation-for="pocetakBoravka" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="krajBoravka" class="control-label"></label>
                 <input asp-for="krajBoravka" class="form-control" />
                 <span asp-validation-for="krajBoravka" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="cijena" class="control-label"></label>
                 <input asp-for="cijena" class="form-control" />
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check" style="display:none;">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="rezervacijaOtkazana" /> @Html.DisplayNameFor(model => model.rezervacijaOtkazana)
                 </label>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label asp-for="datumOtkazivanja" class="control-label"></label>
                 <input asp-for="datumOtkazivanja" class="form-control" />
                 <span asp-validation-for="datumOtkazivanja" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
+            @if (!Model.rezervacijaOtkazana)
+            {
+               <button type="submit" class="btn btn-danger">Otkaži</button>
+            }
         </form>
     </div>
 </div>
+@if (Model.rezervacijaOtkazana)
+{
+    <div class="alert alert-info">
+        <strong>Rezervacija je već otkazana.</strong>
+    </div>
+    <div>
+        <label>Datum otkazivanja:</label>
+        <span>@Model.datumOtkazivanja.ToString("dd.MM.yyyy. HH:mm")</span>
+    </div>
+    <button class="btn btn-secondary mt-3" onclick="history.back();">Nazad</button>
+}
+else
+{
+    <button class="btn btn-secondary mt-3" onclick="history.back();">Nazad</button>
+}
 
 <div>
     <a asp-action="Index">Back to List</a>

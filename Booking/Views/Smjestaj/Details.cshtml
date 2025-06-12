@@ -124,23 +124,22 @@
     @{
         var currentUserId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
         var isAdmin = User.IsInRole("Admin");
-        bool canEdit = (currentUserId == Model.idVlasnika.ToString()) || isAdmin;
+        bool canEdit = (currentUserId == Model.idVlasnika.ToString() && User.IsInRole("Ugostitelj")) || isAdmin;
     }
 
     <!-- Naslov i adresa -->
-    <div class="d-flex align-items-center justify-content-between">
+    <div class="d-flex gap-3">
         <h2 class="fw-bold">@Model.naziv</h2>
         @if (canEdit)
         {
-            <a asp-action="Edit" asp-route-id="@Model.id" class="btn btn-primary btn-sm">
+            <a asp-action="Edit" asp-route-id="@Model.id" class="btn btn-primary btn-sm" style="height: 35px; width: 100px">
                 Uredi
             </a>
+            <a asp-controller="Rezervacija" asp-action="RezervacijeZaSmjestaj" asp-route-idSmjestaja="@Model.id" class="btn btn-primary btn-sm" style="height: 35px; width: 150px">
+                Prikaži rezervacije
+            </a>
         }
-        else
-        {
-            <p class="text-start mb-0">Nisi ovlašten za izmjenu</p>
-        }
-    </div>
+        </div>
     <p class="text-muted">@Model.adresa, @Model.lokacija</p>
 
     <!-- Slike + dugmad u istom redu -->
@@ -160,7 +159,7 @@
 
         <!-- Dugmad -->
         <div class="col-md-3 d-flex flex-column justify-content-start gap-2">
-            <a class="btn btn-primary w-100" asp-action="Rezervisi" asp-route-id="@Model.id">Rezerviši</a>
+            <a class="btn btn-primary w-100" asp-controller="Rezervacija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Rezerviši</a>
             <a class="btn btn-outline-secondary w-100" asp-controller="Recenzija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Ocijeni smještaj</a>
         </div>
     </div>

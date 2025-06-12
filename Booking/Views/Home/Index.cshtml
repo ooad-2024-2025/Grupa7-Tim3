@@ -16,10 +16,10 @@
 <div class="text-center" style="background-color: #f7e2fa; width: 100%">
     <div class="search-bar mt-4">
         <form method="get">
-            <div class="input-group mb-3" style="max-width: 80vw; margin: 0 auto;">
+            <div class="input-group mb-3" style="max-width: 70vw; margin: 0 auto;">
                 <input type="text" class="form-control" placeholder="Search..." name="searchQuery" aria-label="Search" value="@searchQuery" />
             </div>
-            <div class="row mb-3" style="max-width: 600px; margin: 0 auto;">
+            <div class="row mb-3" style="width: 70vw; margin: 0 auto;">
                 <div class="col">
                     <select class="form-select" name="tipSmjestaja">
                         <option value="">Tip smještaja</option>
@@ -61,39 +61,17 @@
                 <div class="col">
                     <input type="number" class="form-control" name="maxCijena" placeholder="Max cijena" value="@maxCijena" min="0" />
                 </div>
+                <div class="col">
+                    <button class="btn btn-primary" type="submit" style="width: 10vw">Traži</button>
+                </div>
             </div>
-            <button class="btn btn-primary" type="submit">Search</button>
         </form>
-        @if (!string.IsNullOrWhiteSpace(searchQuery))
-        {
-            <div style="color: #e75480; font-weight: bold; margin-top: 10px;">
-                @searchQuery
-            </div>
-        }
     </div>
 
     @if (smjestaji != null && smjestaji.Any())
     {
-        <div class="mt-4">
             <h4>Rezultati pretrage:</h4>
-            <table class="table table-bordered" style="max-width: 600px; margin: 0 auto;">
-                <thead>
-                    <tr>
-                        <th>Naziv</th>
-                        <th>Cijena za jednu noć</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var s in smjestaji)
-                    {
-                        <tr>
-                            <td>@s.naziv</td>
-                            <td>@s.cijenaZaJednuNoc.ToString("0.00")</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+       
     }
     <!-- prikaz smjestaja u card-ovima -->
     @if (smjestaji != null && smjestaji.Any())

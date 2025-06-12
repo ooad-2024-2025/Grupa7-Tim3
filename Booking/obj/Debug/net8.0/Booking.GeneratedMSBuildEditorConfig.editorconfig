@@ -120,6 +120,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/RezervacijeGosta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcUmV6ZXJ2YWNpamVHb3N0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/RezervacijeZaSmjestaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcUmV6ZXJ2YWNpamVaYVNtamVzdGFqLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Rezervacija/UspjesnaRezervacija.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcVXNwamVzbmFSZXplcnZhY2lqYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -150,6 +162,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/Smjestaj/SmjestajiUgostitelja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcU21qZXN0YWppVWdvc3RpdGVsamEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dzelo/Desktop/Semestar IV/OOAD/Grupa7-Tim3/Booking/Views/_ViewImports.cshtml]

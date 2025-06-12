@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Booking.Models.Rezervacija>
+
+@{
+    ViewData["Title"] = "Moje rezervacije";
+    var relevantniSmjestaji = ViewBag.RelevantniSmjestaji as IEnumerable<Booking.Models.Smjestaj>;
+}
+
+
+<h2 class="mt-4 mb-3">Moje rezervacije</h2>
+
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Niste ništa rezervisali.
+    </div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Smjestaj</th>
+                <th>Datum rezervacije</th>
+                <th>Početak boravka</th>
+                <th>Kraj boravka</th>
+                <th>Cijena</th>
+                <th>Otkazana?</th>
+                <th>Datum otkazivanja</th>
+                <th>Akcije</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                var smjestaj = relevantniSmjestaji?.FirstOrDefault(s => s.id == item.idSmjestaja);
+                <tr>
+                    <td>@item.id</td>
+                    <td>
+                        @(smjestaj != null ? $"{smjestaj.naziv}" : "Nepoznat naziv")
+                    </td>
+                    <td>@item.datumRezervacije.ToString("dd.MM.yyyy")</td>
+                    <td>@item.pocetakBoravka.ToString("dd.MM.yyyy")</td>
+                    <td>@item.krajBoravka.ToString("dd.MM.yyyy")</td>
+                    <td>@item.cijena KM</td>
+                    <td>@(item.rezervacijaOtkazana ? "Da" : "Ne")</td>
+                    <td>
+                        @(item.datumOtkazivanja == DateTime.MinValue ? "-" : item.datumOtkazivanja.ToString("dd.MM.yyyy"))
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.id" class="btn btn-sm btn-info">Detalji</a>
+                        <a asp-controller="Smjestaj" asp-action="Details" asp-route-id="@item.idSmjestaja" class="btn btn-sm btn-warning">Smještaj</a>
+                        <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-sm btn-danger">Otkaži</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

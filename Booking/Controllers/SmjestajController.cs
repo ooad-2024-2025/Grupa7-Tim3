@@ -9,19 +9,23 @@ using Booking.Data;
 using Booking.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 namespace Booking.Controllers
 {
     public class SmjestajController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public SmjestajController(ApplicationDbContext context)
+        public SmjestajController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Smjestaj
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Smjestaj.ToListAsync());
@@ -59,6 +63,7 @@ namespace Booking.Controllers
         }
 
         // GET: Smjestaj/Create
+        [Authorize(Roles = "Admin, Ugostitelj")]
         public IActionResult Create()
         {
             ViewBag.LokacijaList = Enum.GetValues(typeof(Lokacija))
@@ -75,7 +80,9 @@ namespace Booking.Controllers
             Value = u.ToString(),
             Text = u.ToString()
         }).ToList();
-            return View();
+            var model = new Smjestaj();
+            model.idVlasnika = _userManager.GetUserId(User);
+            return View(model);
         }
 
         // POST: Smjestaj/Create
@@ -90,13 +97,14 @@ namespace Booking.Controllers
 
                 _context.Add(smjestaj);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction( "Index", "Home");
             }
 
             return View(smjestaj);
         }
 
         // GET: Smjestaj/Edit/5
+        [Authorize(Roles = "Admin,Ugostitelj")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -157,13 +165,14 @@ namespace Booking.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
 
             return View(smjestaj);
         }
 
         // GET: Smjestaj/Delete/5
+        [Authorize(Roles = "Admin,Ugostitelj")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -199,6 +208,18 @@ namespace Booking.Controllers
         private bool SmjestajExists(int id)
         {
             return _context.Smjestaj.Any(e => e.id == id);
+        }
+
+
+        [Authorize(Roles = "Admin, Ugostitelj")]
+        public async Task<IActionResult> SmjestajiUgostitelja()
+        {
+            var idKorisnika = _userManager.GetUserId(User);
+            var smjestaji = await _context.Smjestaj
+                .Where(s => s.idVlasnika == idKorisnika)
+                .ToListAsync();
+
+            return View(smjestaji);
         }
     }
 }

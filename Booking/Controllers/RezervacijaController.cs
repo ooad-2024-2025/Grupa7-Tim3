@@ -7,25 +7,33 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Booking.Data;
 using Booking.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
+using Booking.Services;
 
 namespace Booking.Controllers
 {
+    [Authorize]
     public class RezervacijaController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public RezervacijaController(ApplicationDbContext context)
+        public RezervacijaController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Rezervacija
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Rezervacija.ToListAsync());
         }
 
         // GET: Rezervacija/Details/5
+        [Authorize(Roles = "Admin, Gost, Ugostitelj")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,9 +52,34 @@ namespace Booking.Controllers
         }
 
         // GET: Rezervacija/Create
-        public IActionResult Create()
+        [Authorize(Roles = "Admin,Gost")]
+        public IActionResult Create(int? idSmjestaja)
         {
-            return View();
+
+            var model = new Rezervacija();
+            if (idSmjestaja.HasValue)
+            {
+                model.idSmjestaja = idSmjestaja.Value;
+                //fetch cijenaZaJedanDan from database
+                var smjestaj = _context.Smjestaj.FirstOrDefault(s => s.id == idSmjestaja.Value);
+                if (smjestaj != null)
+                {
+                    ViewData["cijenaZaJednuNoc"] = smjestaj.cijenaZaJednuNoc;
+                }
+                else
+                {
+                    ViewData["cijenaZaJednuNoc"] = 0;
+                }
+            }
+            model.idGosta = _userManager.GetUserId(User);
+            model.datumRezervacije = DateTime.Now;
+            model.datumOtkazivanja = DateTime.MinValue;
+            model.pocetakBoravka = DateTime.Now;
+            model.krajBoravka = DateTime.Now.AddDays(1);
+            model.rezervacijaOtkazana = false;
+
+
+            return View(model);
         }
 
         // POST: Rezervacija/Create
@@ -56,16 +89,20 @@ namespace Booking.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("id,idSmjestaja,idGosta,datumRezervacije,pocetakBoravka,krajBoravka,cijena,rezervacijaOtkazana,datumOtkazivanja")] Rezervacija rezervacija)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && rezervacija.pocetakBoravka < rezervacija.krajBoravka && (rezervacija.krajBoravka - rezervacija.pocetakBoravka).TotalDays >= 1)
             {
                 _context.Add(rezervacija);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // Send email notification
+                var emailService = new EmailService();
+                await emailService.SendEmailAsync();
+                return View("UspjesnaRezervacija");
             }
             return View(rezervacija);
         }
 
         // GET: Rezervacija/Edit/5
+        [Authorize(Roles = "Admin, Gost")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -97,6 +134,8 @@ namespace Booking.Controllers
             {
                 try
                 {
+                    rezervacija.datumOtkazivanja = DateTime.Now;
+                    rezervacija.rezervacijaOtkazana = true;
                     _context.Update(rezervacija);
                     await _context.SaveChangesAsync();
                 }
@@ -111,12 +150,13 @@ namespace Booking.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Home");
             }
             return View(rezervacija);
         }
 
         // GET: Rezervacija/Delete/5
+        [Authorize(Roles = "Admin, Gost, Ugostitelj")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -153,5 +193,55 @@ namespace Booking.Controllers
         {
             return _context.Rezervacija.Any(e => e.id == id);
         }
+        [Authorize(Roles = "Admin, Ugostitelj")]
+        public async Task<IActionResult> RezervacijeZaSmjestaj(int idSmjestaja)
+        {
+            var rezervacije = await _context.Rezervacija
+                .Where(r => r.idSmjestaja == idSmjestaja)
+                .ToListAsync();
+
+            var gostIds = rezervacije.Select(r => r.idGosta).Distinct().ToList();
+
+            var relevantniKorisnici = await _context.Users
+                .Where(u => gostIds.Contains(u.Id))
+                .ToListAsync();
+
+            var smjestaj = await _context.Smjestaj
+                .FirstOrDefaultAsync(s => s.id == idSmjestaja);
+
+            ViewBag.NazivSmjestaja = smjestaj?.naziv;
+            ViewBag.RelevantniKorisnici = relevantniKorisnici;
+
+
+            return View(rezervacije);
+        }
+        [Authorize(Roles = "Admin, Gost")]
+        public async Task<IActionResult> RezervacijeGosta()
+        {
+            var idGosta = _userManager.GetUserId(User);
+            var rezervacije = await _context.Rezervacija
+                .Where(r => r.idGosta== idGosta)
+                .ToListAsync();
+
+            var smjestajIds = rezervacije.Select(r => r.idSmjestaja).Distinct().ToList();
+
+            var relevantniSmjestaji = await _context.Smjestaj
+                .Where(s => smjestajIds.Contains(s.id))
+                .ToListAsync();
+            ViewBag.RelevantniSmjestaji = relevantniSmjestaji;
+
+
+            return View(rezervacije);
+        }
+
+        public async Task<IActionResult> PosaljiMail()
+        {
+            var emailService = new EmailService();
+            await emailService.SendEmailAsync();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+
     }
 }
