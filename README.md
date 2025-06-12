@@ -32,3 +32,4 @@
 #To Do:
 - Slanje maila korisniku i ugostitelju
 - Ocjena smjetaja moguca akko je taj user ranije REZERVISAO taj smjestaj
+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
