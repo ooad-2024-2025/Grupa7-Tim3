@@ -1,11 +1,13 @@
 # Visual Studio
-.vs/
+Booking/.vs/
 *.user
 *.suo
 
 # Build results
-bin/
-obj/
+
+Booking/bin/
+Booking/obj/
+
 
 # NuGet
 *.nupkg
