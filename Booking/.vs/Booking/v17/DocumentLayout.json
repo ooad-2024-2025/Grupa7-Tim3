@@ -1,201 +1,201 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\",
+  "WorkspaceRootPath": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\uloga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\controllers\\recenzijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\recenzijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:controllers\\recenzijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\views\\recenzija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\views\\recenzija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:views\\recenzija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\controllers\\smjestajcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\controllers\\smjestajcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:controllers\\smjestajcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\migrations\\20250529120125_ponovoprvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\migrations\\20250529120125_ponovoprvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:migrations\\20250529120125_ponovoprvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\recenzija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\recenzija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\recenzija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\smjestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\smjestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\smjestaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\korisnik\\onedrive\\radna povr\u0161ina\\ooadprojekat\\grupa7-tim3\\booking\\models\\tipsmjestaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|c:\\users\\dzelo\\desktop\\semestar iv\\ooad\\grupa7-tim3\\booking\\models\\tipsmjestaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304AEFB-2531-4213-8069-84D1BD5306A5}|Booking.csproj|solutionrelative:models\\tipsmjestaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -209,19 +209,6 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConfirmEmailChange.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T21:03:28.191Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
@@ -231,414 +218,397 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Email.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAswF8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T18:52:27.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Email.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T18:52:28.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T18:52:27.539Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T18:52:28.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAADoAAAAAAAAAAAAWwEgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:38:51.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:38:51.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T19:57:40.289Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T19:57:40.289Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T16:36:20.288Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T16:36:20.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-14T16:36:20.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConfirmEmailChange.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T21:03:28.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-05T10:55:06.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ManageNav.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T19:57:18.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonalData.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T20:04:11.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PersonalData.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:52:37.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T16:38:01.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T16:41:17.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwLUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:39:53.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Korisnik.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
-              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
-              "RelativeToolTip": "Models\\Korisnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:28:48.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Uloga.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
-              "RelativeDocumentMoniker": "Models\\Uloga.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
-              "RelativeToolTip": "Models\\Uloga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T19:05:07.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ChangePassword.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAA9wHoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T17:13:06.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ManageNavPages.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:09:12.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-04T16:41:43.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ForgotPassword.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:52:10.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T10:55:53.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-14T17:38:10.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA4wFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T17:12:02.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Program.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:12:34.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfirmEmailChange.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T21:03:28.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T21:03:28.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-05T10:55:06.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T19:57:18.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T20:04:11.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T19:52:37.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T16:38:01.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:41:17.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwLUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:39:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:28:48.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Uloga.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
+              "RelativeDocumentMoniker": "Models\\Uloga.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Uloga.cs",
+              "RelativeToolTip": "Models\\Uloga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T19:05:07.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA9wHoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:13:06.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:09:12.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T16:41:43.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T19:52:10.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T10:55:53.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T17:38:10.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA4wFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:12:02.311Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T19:57:36.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T19:57:36.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:21:27.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:21:27.37Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T13:36:21.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:36:21.55Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T20:16:15.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:16:15.373Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T20:10:32.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:10:32.116Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:22:11.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T16:22:11.094Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-13T19:52:10.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T19:52:10.706Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Services\\EmailService.cs",
               "RelativeToolTip": "Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -648,9 +618,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -660,9 +630,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "RezervacijaController.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\RezervacijaController.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\RezervacijaController.cs",
               "RelativeDocumentMoniker": "Controllers\\RezervacijaController.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\RezervacijaController.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\RezervacijaController.cs",
               "RelativeToolTip": "Controllers\\RezervacijaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -672,9 +642,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "RecenzijaController.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\RecenzijaController.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\RecenzijaController.cs",
               "RelativeDocumentMoniker": "Controllers\\RecenzijaController.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\RecenzijaController.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\RecenzijaController.cs",
               "RelativeToolTip": "Controllers\\RecenzijaController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -684,9 +654,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -696,9 +666,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -708,9 +678,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -720,9 +690,9 @@
               "$type": "Document",
               "DocumentIndex": 39,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Recenzija\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Recenzija\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Recenzija\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Views\\Recenzija\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Views\\Recenzija\\Create.cshtml",
               "RelativeToolTip": "Views\\Recenzija\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -732,9 +702,9 @@
               "$type": "Document",
               "DocumentIndex": 40,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAIsBAAAAAAAAAAAwwJwBAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -744,9 +714,9 @@
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "SmjestajController.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\SmjestajController.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\SmjestajController.cs",
               "RelativeDocumentMoniker": "Controllers\\SmjestajController.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Controllers\\SmjestajController.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Controllers\\SmjestajController.cs",
               "RelativeToolTip": "Controllers\\SmjestajController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -756,9 +726,9 @@
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -768,9 +738,9 @@
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "Lokacija.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
               "RelativeDocumentMoniker": "Models\\Lokacija.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Lokacija.cs",
               "RelativeToolTip": "Models\\Lokacija.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -780,9 +750,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "20250529120125_PonovoPrvaMigracija.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Migrations\\20250529120125_PonovoPrvaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Migrations\\20250529120125_PonovoPrvaMigracija.cs",
               "RelativeDocumentMoniker": "Migrations\\20250529120125_PonovoPrvaMigracija.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Migrations\\20250529120125_PonovoPrvaMigracija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Migrations\\20250529120125_PonovoPrvaMigracija.cs",
               "RelativeToolTip": "Migrations\\20250529120125_PonovoPrvaMigracija.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -792,9 +762,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "Recenzija.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
               "RelativeDocumentMoniker": "Models\\Recenzija.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Recenzija.cs",
               "RelativeToolTip": "Models\\Recenzija.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -804,9 +774,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "Rezervacija.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
               "RelativeDocumentMoniker": "Models\\Rezervacija.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Rezervacija.cs",
               "RelativeToolTip": "Models\\Rezervacija.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -816,9 +786,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "Smjestaj.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
               "RelativeDocumentMoniker": "Models\\Smjestaj.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\Smjestaj.cs",
               "RelativeToolTip": "Models\\Smjestaj.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -828,9 +798,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "TipSmjestaja.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
+              "DocumentMoniker": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
               "RelativeDocumentMoniker": "Models\\TipSmjestaja.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Radna povr\u0161ina\\OOADprojekat\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
+              "ToolTip": "C:\\Users\\Dzelo\\Desktop\\Semestar IV\\OOAD\\Grupa7-Tim3\\Booking\\Models\\TipSmjestaja.cs",
               "RelativeToolTip": "Models\\TipSmjestaja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

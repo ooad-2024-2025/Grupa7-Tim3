@@ -38,6 +38,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+//babara, boba dagara, mala sa Ajdinom momka lagala
 
 app.MapControllerRoute(
     name: "default",
