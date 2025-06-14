@@ -1,8 +1,4 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
-// The .NET Foundation licenses this file to you under the MIT license.
-#nullable disable
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -10,9 +6,9 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using Booking.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-using Booking.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -46,29 +42,15 @@ namespace Booking.Areas.Identity.Pages.Account
             _emailSender = emailSender;
         }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         [BindProperty]
         public InputModel Input { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public string ReturnUrl { get; set; }
-
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public IList<AuthenticationScheme> ExternalLogins { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
+        // 👇 Dodaj listu uloga za dropdown
+        public List<Uloga> SveUloge { get; set; }
+
         public class InputModel
         {
             [Required(ErrorMessage = "Ime je obavezno.")]
@@ -76,72 +58,66 @@ namespace Booking.Areas.Identity.Pages.Account
             [Display(Name = "Ime")]
             public string Ime { get; set; }
 
-
             [Required(ErrorMessage = "Prezime je obavezno.")]
             [RegularExpression(@"^[A-ZčšćžđČŠĆŽĐa-z\s\-]{2,30}$", ErrorMessage = "Prezime smije sadržavati samo slova i razmake.")]
             [Display(Name = "Prezime")]
             public string Prezime { get; set; }
 
-          
-
-            [Required]
+            [Required(ErrorMessage = "Adresa je obavezna.")]
             [Display(Name = "Adresa")]
             public string Adresa { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "Broj telefona je obavezan.")]
+            [RegularExpression(@"^\d{9,}$", ErrorMessage = "Broj telefona mora imati najmanje 9 cifara i ne smije sadržavati slova.")]
             [Display(Name = "Broj telefona")]
             public string BrojTelefona { get; set; }
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
-            [Required]
+
+
+            [Required(ErrorMessage = "Email je obavezan.")]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Required(ErrorMessage = "Lozinka je obavezna.")]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
-              [DataType(DataType.Password)]
-              [Display(Name = "Lozinka")]
-              public string Password { get; set; }
+            [StringLength(100, ErrorMessage = "Lozinka mora imati najmanje {2}, a najviše {1} karaktera.", MinimumLength = 6)]
+            [DataType(DataType.Password)]
+            [Display(Name = "Lozinka")]
+            public string Password { get; set; }
 
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
-            [Required]
-              [DataType(DataType.Password)]
-              [Display(Name = "Potvrdi lozinku")]
-              [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
-              public string ConfirmPassword { get; set; }
-          }
+            [Required(ErrorMessage = "Potvrdi lozinku polje je obavezno.")]
+            [DataType(DataType.Password)]
+            [Display(Name = "Potvrdi lozinku")]
+            [Compare("Password", ErrorMessage = "Lozinka i potvrda lozinke se ne podudaraju.")]
+            public string ConfirmPassword { get; set; }
 
-        
+            
+            [Required(ErrorMessage = "Odaberite ulogu!")]
+            [Display(Name = "Uloga")]
+            public Uloga? Uloga { get; set; }
+        }
+
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            SveUloge = Enum.GetValues(typeof(Uloga)).Cast<Uloga>().ToList(); // 👈 punjenje enum liste
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            SveUloge = Enum.GetValues(typeof(Uloga)).Cast<Uloga>().ToList(); // 👈 ponovno punjenje ako forma nije validna
+
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
 
                 user.ime = Input.Ime;
                 user.prezime = Input.Prezime;
-                
                 user.adresa = Input.Adresa;
                 user.brojTelefona = Input.BrojTelefona;
-
+                user.uloga = Input.Uloga; // 👈 snimi ulogu
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
@@ -150,6 +126,8 @@ namespace Booking.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    await _userManager.AddToRoleAsync(user, Input.Uloga.ToString());
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -160,8 +138,8 @@ namespace Booking.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    await _emailSender.SendEmailAsync(Input.Email, "Potvrdite svoj račun",
+                        $"Molimo potvrdite svoj račun klikom <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>ovdje</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
@@ -179,7 +157,7 @@ namespace Booking.Areas.Identity.Pages.Account
                 }
             }
 
-            // If we got this far, something failed, redisplay form
+            // Ako forma nije validna
             return Page();
         }
 
@@ -191,18 +169,16 @@ namespace Booking.Areas.Identity.Pages.Account
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(Korisnik)}'. " +
-                    $"Ensure that '{nameof(Korisnik)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+                throw new InvalidOperationException($"Nije moguće kreirati instancu '{nameof(Korisnik)}'. " +
+                    $"Provjeri da '{nameof(Korisnik)}' nije apstraktna klasa i da ima konstruktor bez parametara.");
             }
         }
 
         private IUserEmailStore<Korisnik> GetEmailStore()
         {
             if (!_userManager.SupportsUserEmail)
-            {
-                throw new NotSupportedException("The default UI requires a user store with email support.");
-            }
+                throw new NotSupportedException("Email nije podržan u trenutnoj konfiguraciji.");
+
             return (IUserEmailStore<Korisnik>)_userStore;
         }
     }

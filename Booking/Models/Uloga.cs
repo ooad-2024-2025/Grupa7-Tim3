@@ -2,7 +2,7 @@
 {
     public enum Uloga
     {
-        Administrator,
+        
         Ugostitelj,
         Gost
     }
