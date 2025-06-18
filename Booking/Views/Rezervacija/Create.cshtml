@@ -15,37 +15,37 @@
             <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
             <div class="form-group mb-3">
-                <label asp-for="idSmjestaja" class="control-label">Id Smjestajaaa</label>
+                <label asp-for="idSmjestaja" class="control-label">Id Smjestaja</label>
                 <input asp-for="idSmjestaja" class="form-control" readonly />
                 <span asp-validation-for="idSmjestaja" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
-                <label asp-for="idGosta" class="control-label"></label>
+                <label asp-for="idGosta" class="control-label">Id Gosta</label>
                 <input asp-for="idGosta" class="form-control" readonly />
                 <span asp-validation-for="idGosta" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
-                <label asp-for="datumRezervacije" class="control-label"></label>
+                <label asp-for="datumRezervacije" class="control-label">Datum rezervacije</label>
                 <input asp-for="datumRezervacije" class="form-control" readonly />
                 <span asp-validation-for="datumRezervacije" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
-                <label asp-for="pocetakBoravka" class="control-label"></label>
+                <label asp-for="pocetakBoravka" class="control-label">Početak boravka</label>
                 <input asp-for="pocetakBoravka" class="form-control" id="pocetakBoravka" />
                 <span asp-validation-for="pocetakBoravka" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
-                <label asp-for="krajBoravka" class="control-label"></label>
+                <label asp-for="krajBoravka" class="control-label">Kraj boravka</label>
                 <input asp-for="krajBoravka" class="form-control" id="krajBoravka" />
                 <span asp-validation-for="krajBoravka" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
-                <label asp-for="cijena" class="control-label"></label>
+                <label asp-for="cijena" class="control-label">Cijena</label>
                 <input asp-for="cijena" class="form-control" readonly id="cijena" />
                 <span asp-validation-for="cijena" class="text-danger"></span>
             </div>
@@ -58,9 +58,18 @@
             </div>
 
             <div class="form-group mb-3" style="display:none;">
-                <label asp-for="datumOtkazivanja" class="control-label"></label>
+                <label asp-for="datumOtkazivanja" class="control-label">Datum Otkazivanja</label>
                 <input asp-for="datumOtkazivanja" class="form-control" />
                 <span asp-validation-for="datumOtkazivanja" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label for="brojKartice" class="control-label">Broj kartice</label>
+                <input type="text" class="form-control" id="brojKartice" required maxlength="19" placeholder="1234 5678 9012 3456" name="" />
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="cvv" class="control-label">Sigurnosni broj (CVV)</label>
+                <input type="text" class="form-control" id="cvv" required maxlength="4" placeholder="123" name="" />
             </div>
 
             <div class="form-group d-flex gap-2">

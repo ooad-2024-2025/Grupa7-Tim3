@@ -55,7 +55,20 @@
 
             @if (!Model.rezervacijaOtkazana)
             {
-               <button type="submit" class="btn btn-danger">Otkaži</button>
+                var danaDoPocetka = (Model.pocetakBoravka - DateTime.Now).TotalDays;
+
+                <button type="submit" class="btn btn-danger me-2">Otkaži</button>
+
+                if (danaDoPocetka >= 7)
+                {
+                    <button type="submit" class="btn btn-warning">Otkaži uz povrat novca</button>
+                }
+                else
+                {
+                    <div class="mt-2 text-danger fw-bold">
+                        Povrat novca nije moguć
+                    </div>
+                }
             }
         </form>
     </div>

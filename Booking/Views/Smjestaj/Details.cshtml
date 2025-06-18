@@ -6,6 +6,7 @@
     ViewData["Title"] = "Details";
     var recenzije = ViewData["Recenzije"] as List<Booking.Models.Recenzija>;
     var korisnici = ViewData["RelevantniKorisnici"] as List<Booking.Models.Korisnik>;
+    bool korisnikJeRezervisao = ViewData["KorisnikJeRezervisao"] as bool? ?? false;
 }
 
 <!--
@@ -139,7 +140,7 @@
                 Prikaži rezervacije
             </a>
         }
-        </div>
+    </div>
     <p class="text-muted">@Model.adresa, @Model.lokacija</p>
 
     <!-- Slike + dugmad u istom redu -->
@@ -160,7 +161,10 @@
         <!-- Dugmad -->
         <div class="col-md-3 d-flex flex-column justify-content-start gap-2">
             <a class="btn btn-primary w-100" asp-controller="Rezervacija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Rezerviši</a>
-            <a class="btn btn-outline-secondary w-100" asp-controller="Recenzija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Ocijeni smještaj</a>
+            @if (User.IsInRole("Admin") || korisnikJeRezervisao)
+            {
+                <a class="btn btn-outline-secondary w-100" asp-controller="Recenzija" asp-action="Create" asp-route-idSmjestaja="@Model.id">Ocijeni smještaj</a>
+            }
         </div>
     </div>
 
@@ -288,14 +292,4 @@
 
 
 
-</div>
-
-
-
-
-
-
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
 </div>

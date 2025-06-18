@@ -59,6 +59,19 @@ namespace Booking.Controllers
             ViewData["Recenzije"] = recenzije;
             ViewData["RelevantniKorisnici"] = relevantniKorisnici;
 
+            if (User.Identity.IsAuthenticated && !User.IsInRole("Admin"))
+            {
+                var userId = _userManager.GetUserId(User);
+                bool korisnikJeRezervisao = _context.Rezervacija
+                    .Any(r => r.idGosta == userId && r.idSmjestaja == smjestaj.id);
+
+                ViewData["KorisnikJeRezervisao"] = korisnikJeRezervisao;
+            }
+            else
+            {
+                ViewData["KorisnikJeRezervisao"] = true;
+            }
+
             return View(smjestaj);
         }
 

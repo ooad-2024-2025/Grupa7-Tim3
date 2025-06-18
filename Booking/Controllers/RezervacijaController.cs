@@ -94,8 +94,30 @@ namespace Booking.Controllers
                 _context.Add(rezervacija);
                 await _context.SaveChangesAsync();
                 // Send email notification
-                var emailService = new EmailService();
-                await emailService.SendEmailAsync();
+                var user = await _userManager.GetUserAsync(User);
+                var email = user?.Email;
+
+                if (!string.IsNullOrEmpty(email))
+                {
+                    var smjestaj = await _context.Smjestaj.FirstOrDefaultAsync(s => s.id == rezervacija.idSmjestaja);
+                    var brojNocenja = (rezervacija.krajBoravka - rezervacija.pocetakBoravka).Days;
+
+                    var htmlContent = $@"
+                <h2>Potvrda rezervacije</h2>
+                <p>Poštovani,</p>
+                <p>Vaša rezervacija je uspješno izvršena. U nastavku su detalji:</p>
+                <ul>
+                    <li><strong>Smještaj:</strong> {smjestaj?.naziv}</li>
+                    <li><strong>Početak boravka:</strong> {rezervacija.pocetakBoravka:dd.MM.yyyy}</li>
+                    <li><strong>Kraj boravka:</strong> {rezervacija.krajBoravka:dd.MM.yyyy}</li>
+                    <li><strong>Broj noćenja:</strong> {brojNocenja}</li>
+                    <li><strong>Ukupna cijena:</strong> {rezervacija.cijena:0.00} KM</li>
+                </ul>
+                <p>Hvala što koristite Booking.com!</p>
+            ";
+                    var emailService = new EmailService();
+                    await emailService.SendEmailAsync(email, htmlContent);
+                }
                 return View("UspjesnaRezervacija");
             }
             return View(rezervacija);
@@ -138,6 +160,28 @@ namespace Booking.Controllers
                     rezervacija.rezervacijaOtkazana = true;
                     _context.Update(rezervacija);
                     await _context.SaveChangesAsync();
+
+                    // Dohvati korisnika
+                    var korisnik = await _context.Users.FindAsync(rezervacija.idGosta);
+
+                    // Dohvati smještaj
+                    var smjestaj = await _context.Smjestaj.FindAsync(rezervacija.idSmjestaja);
+
+                    if (korisnik != null && smjestaj != null && !string.IsNullOrEmpty(korisnik.Email))
+                    {
+                        var emailService = new EmailService();
+
+                        var htmlContent = $@"
+                    <p><strong>Vaša rezervacija je otkazana.</strong></p>
+                    <p>Smještaj: <strong>{smjestaj.naziv}</strong></p>
+                    <p>Period: {rezervacija.pocetakBoravka:dd.MM.yyyy.} - {rezervacija.krajBoravka:dd.MM.yyyy.}</p>
+                    <p>Cijena: {rezervacija.cijena} KM</p>
+                    <p>Status: <span style='color:red;'><strong>OTKAZANO</strong></span></p>
+                ";
+
+                        await emailService.SendEmailAsync(korisnik.Email, htmlContent);
+                    }
+
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -236,8 +280,8 @@ namespace Booking.Controllers
 
         public async Task<IActionResult> PosaljiMail()
         {
-            var emailService = new EmailService();
-            await emailService.SendEmailAsync();
+            //var emailService = new EmailService();
+            //await emailService.SendEmailAsync();
 
             return RedirectToAction("Index", "Home");
         }
